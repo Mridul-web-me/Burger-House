@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+
+.nav-items li a {
+    color: #333300;
+    font-size: 20px;
+    padding: 0 1.2rem;
+}
+
+.nav-items a:hover {}
+
+.hero p {
+    border-style: dashed;
+}
+
+.hero h2 {
+    font-size: 40px;
+    color: #333300;
+    font-weight: 900;
+}
+
+.hero .snd {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 24px;
+    color: #333300;
+}
+
+.hero p {
+    font-family: 'Bebas Neue', cursive;
+    line-height: 2.5;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: inline-block;
+}
+
+.product {
+    padding-top: 40px;
+}
+
+.first {
+    padding-right: 35px;
+}
+
+.second-1 {
+    padding-top: 30px;
+}
+
+.enjoy {
+    margin-top: 40px;
+}
+
+.enjoy h4 {
+    text-align: center;
+    color: #333300;
+}
+
+.enjoy h2 {
+    text-align: center;
+    color: #333300;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.enjoy p {
+    text-align: center;
+    color: #333300;
+}
+
+.header .container {
+    position: relative;
+}
+
+.header .container .top-section {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 16px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+button {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.header .hero {
+    min-height: 400px;
+}
+
+.custom-color {
+    background: #bf2222;
+}
+
+
+
+.item {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.table .container {
+    background: url('../img/form-bg.png');
+    background-size: 100% 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.events .container {
+    box-shadow: 0 10px 14px rgba(0, 0, 0, .17);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer .container{
+    background: url('../img/P5687Recovered.jpg');
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer img{
+    max-width: 250px;
+}
+
+.footer i{
+    margin-right: .5rem;
+}
+
+
+
+@media screen and (min-width: 767px) {
+    .header .hero {
+        min-height: 820px;
+    }
+
+    .customRow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .hero h2 {
+        font-size: 110px;
+    }
+
+    .hero .snd {
+        font-size: 54px;
+    }
+}
